@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Proje 6</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="extra.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+   <!--Accordion-->
+   <div class="container my-5">
+    <div class="row">
+        <div class="col">
+            <div class="accordion" id="carsAccordion">
+                <!--Bmw-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headerbmw">
+                        <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#first" aria-expanded="false" aria-controls="first">BMW</button>
+                    </h2>
+                    <div class="accordion-collapse" id="first" aria-labelledby="headerbmw" data-bs-parent="#carsAccordion">
+                        <div class="accordion-body"><strong>E92 M3 </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo asperiores iure tempore dolore recusandae facere in atque voluptates consequuntur mollitia? Odit ipsa consequuntur, atque ipsum ut alias. At, tempore obcaecati.
+                            <img src="images/bmwe92m3.jpg" alt="bmw" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <!--Mercedes-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headermercedes">
+                        <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#second" aria-expanded="false" aria-controls="second">Mercedes</button>
+                    </h2>
+                    <div class="accordion-collapse" id="second" aria-labelledby="headermercedes" data-bs-parent="#carsAccordion">
+                        <div class="accordion-body"><strong>C63 AMG </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo asperiores iure tempore dolore recusandae facere in atque voluptates consequuntur mollitia? Odit ipsa consequuntur, atque ipsum ut alias. At, tempore obcaecati.
+                            <img src="images/mercedesc63amg3.jpg" alt="mercedes" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <!--Audi-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headeraudi">
+                        <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#third" aria-expanded="false" aria-controls="third">Audi</button>
+                    </h2>
+                    <div class="accordion-collapse" id="third" aria-labelledby="headeraudi" data-bs-parent="#carsAccordion">
+                        <div class="accordion-body"><strong>R8 </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo asperiores iure tempore dolore recusandae facere in atque voluptates consequuntur mollitia? Odit ipsa consequuntur, atque ipsum ut alias. At, tempore obcaecati.
+                            <img src="images/2020-Audi-R8-V10-Performance-Quattro-Coupe-blue-1001x565.webp" alt="audi" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <!--Porsche-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headerporsche">
+                        <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#fourth" aria-expanded="false" aria-controls="fourth">Porsche</button>
+                    </h2>
+                    <div class="accordion-collapse" id="fourth" aria-labelledby="headerporsche" data-bs-parent="#carsAccordion">
+                        <div class="accordion-body"><strong>911 Turbo </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo asperiores iure tempore dolore recusandae facere in atque voluptates consequuntur mollitia? Odit ipsa consequuntur, atque ipsum ut alias. At, tempore obcaecati.
+                            <img src="images/porsche911turbo3.webp" alt="porsche" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <!--Volkswagen-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headervw">
+                        <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#fifth" aria-expanded="false" aria-controls="fifth">Volkswagen</button>
+                    </h2>
+                    <div class="accordion-collapse" id="fifth" aria-labelledby="headervw" data-bs-parent="#carsAccordion">
+                        <div class="accordion-body"><strong>Passat CC </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo asperiores iure tempore dolore recusandae facere in atque voluptates consequuntur mollitia? Odit ipsa consequuntur, atque ipsum ut alias. At, tempore obcaecati.
+                            <img src="images/passatccc.webp" alt="vw" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <!--Opel-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headeropel">
+                        <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#sixth" aria-expanded="false" aria-controls="sixth">Opel</button>
+                    </h2>
+                    <div class="accordion-collapse" id="sixth" aria-labelledby="headeropel" data-bs-parent="#carsAccordion">
+                        <div class="accordion-body"><strong>Insignia </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo asperiores iure tempore dolore recusandae facere in atque voluptates consequuntur mollitia? Odit ipsa consequuntur, atque ipsum ut alias. At, tempore obcaecati.
+                            <img src="images/opelinsignia3.jpeg" alt="opel" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!--Offcanvas-->
+   <div class="container my-4">
+    <div class="row-cols-sm-6 row-cols-md-1">
+        <div class="col-sm-2 col-md-12">
+            <h3>Click for more information...</h3>
+            <hr>
+            <!--Bmw-->
+            <button class="btn btn-secondary mb-2" data-bs-toggle="offcanvas" role="button" aria-controls="bmwCanvas" data-bs-target="#bmwCanvas">BMW</button>
+            <div class="offcanvas offcanvas-start" id="bmwCanvas" tabindex="-1" aria-labelledby="bmwCanLab" data-bs-backdrop="true">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="bmwCanLab">BMW</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="kapat"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="alert alert-info">E92 M3</div>
+                    <img src="images/bmwe92m3.jpg" alt="bmw" class="img-fluid">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repudiandae porro animi quis cupiditate corrupti fuga maiores dolor libero quod, quia optio repellat esse mollitia doloremque aperiam, velit, reprehenderit accusamus?</p>
+                </div>
+            </div>
+            <!--Mercedes-->
+            <button class="btn btn-secondary mb-2" data-bs-toggle="offcanvas" role="button" aria-controls="mercedesCanvas" data-bs-target="#mercedesCanvas">Mercedes</button>
+            <div class="offcanvas offcanvas-start" id="mercedesCanvas" tabindex="-1" aria-labelledby="mercedesCanLab" data-bs-backdrop="true">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="mercedesCanLab">Mercedes</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="kapat"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="alert alert-info">C63 AMG</div>
+                    <img src="images/mercedesc63amg3.jpg" alt="mercedes" class="img-fluid">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repudiandae porro animi quis cupiditate corrupti fuga maiores dolor libero quod, quia optio repellat esse mollitia doloremque aperiam, velit, reprehenderit accusamus?</p>
+                </div>
+            </div>
+            <!--Audi-->
+            <button class="btn btn-secondary mb-2" data-bs-toggle="offcanvas" role="button" aria-controls="audiCanvas" data-bs-target="#audiCanvas">Audi</button>
+            <div class="offcanvas offcanvas-start" id="audiCanvas" tabindex="-1" aria-labelledby="audiCanLab" data-bs-backdrop="true">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="audiCanLab">Audi</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="kapat"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="alert alert-info">R8</div>
+                    <img src="images/audir8.jpg" alt="audi" class="img-fluid">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repudiandae porro animi quis cupiditate corrupti fuga maiores dolor libero quod, quia optio repellat esse mollitia doloremque aperiam, velit, reprehenderit accusamus?</p>
+                </div>
+            </div>
+            <!--Porsche-->
+            <button class="btn btn-secondary mb-2" data-bs-toggle="offcanvas" role="button" aria-controls="porscheCanvas" data-bs-target="#porscheCanvas">Porsche</button>
+            <div class="offcanvas offcanvas-start" id="porscheCanvas" tabindex="-1" aria-labelledby="porscheCanLab" data-bs-backdrop="true">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="porscheCanLab">Porsche</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="kapat"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="alert alert-info">911 Turbo</div>
+                    <img src="images/porsche911turbo4.webp" alt="porsche" class="img-fluid">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repudiandae porro animi quis cupiditate corrupti fuga maiores dolor libero quod, quia optio repellat esse mollitia doloremque aperiam, velit, reprehenderit accusamus?</p>
+                </div>
+            </div>
+            <!--Volkswagen-->
+            <button class="btn btn-secondary mb-2" data-bs-toggle="offcanvas" role="button" aria-controls="vwCanvas" data-bs-target="#vwCanvas">Volkswagen</button>
+            <div class="offcanvas offcanvas-start" id="vwCanvas" tabindex="-1" aria-labelledby="vwCanLab" data-bs-backdrop="true">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="vwCanLab">Volkswagen</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="kapat"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="alert alert-info">Passat CC</div>
+                    <img src="images/passatccc.webp" alt="vw" class="img-fluid">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repudiandae porro animi quis cupiditate corrupti fuga maiores dolor libero quod, quia optio repellat esse mollitia doloremque aperiam, velit, reprehenderit accusamus?</p>
+                </div>
+            </div>
+            <!--Opel-->
+            <button class="btn btn-secondary mb-2" data-bs-toggle="offcanvas" role="button" aria-controls="opelCanvas" data-bs-target="#opelCanvas">Opel</button>
+            <div class="offcanvas offcanvas-start" id="opelCanvas" tabindex="-1" aria-labelledby="opelCanLab" data-bs-backdrop="true">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="opelCanLab">Opel</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="kapat"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="alert alert-info">Insignia</div>
+                    <img src="images/opelinsignia3.jpeg" alt="opel" class="img-fluid">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora repudiandae porro animi quis cupiditate corrupti fuga maiores dolor libero quod, quia optio repellat esse mollitia doloremque aperiam, velit, reprehenderit accusamus?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!--Navbar-->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand"><img src="images/porsche911turbo4.webp" width="40" height="40" alt="logo" class="rounded-circle d-inline-block align-text-top"> Garage</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#carsContent" aria-controls="carsContent" aria-expanded="false" aria-label="menu acma kapatma">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="carsContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Homepage</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="carsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cars</a>
+                    <ul class="dropdown-menu" aria-labelledby="carsDropdown">
+                        <li><a href="#" class="dropdown-item">Bmw</a></li>
+                        <li><a href="#" class="dropdown-item">Mercedes</a></li>
+                        <li><a href="#" class="dropdown-item">Audi</a></li>
+                        <li><a href="#" class="dropdown-item">Porsche</a></li>
+                        <li><a href="#" class="dropdown-item">Volkswagen</a></li>
+                        <li><a href="#" class="dropdown-item">Opel</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link disabled" tabindex="-1">Services</a></li>
+            </ul>
+            <span class="navbar-brand h4 mb-0">More Question</span>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search..." aria-label="arama kutusu">
+                <button type="button" class="btn btn-outline-light">Click</button>
+            </form>
+        </div>
+    </div>
+   </nav>
+
+   <!--Placeholder Loading Effect-->
+   <div class="container my-4">
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="card h-100 w-100 mt-2" aria-hidden="true">
+                <img src="images/bmwe92m3.jpg" alt="bmw" class="img-fluid card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title placeholder-glow">
+                        <span class="placeholder col-4"></span>
+                    </h5>
+                    <p class="card-text placeholder-wave">
+                        <span class="placeholder col-12"></span>
+                        <span class="placeholder col-5"></span>
+                        <span class="placeholder col-7"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-6"></span>
+                    </p>
+                    <a href="#" tabindex="-1" class="btn btn-sm btn-secondary disabled placeholder col-4"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="card h-100 w-100 mt-2" aria-hidden="true">
+                <img src="images/mercedesc63amg3.jpg" alt="mercedes" class="img-fluid card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title placeholder-glow">
+                        <span class="placeholder col-4"></span>
+                    </h5>
+                    <p class="card-text placeholder-wave">
+                        <span class="placeholder col-12"></span>
+                        <span class="placeholder col-5 placeholder-sm"></span>
+                        <span class="placeholder col-7"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-6"></span>
+                    </p>
+                    <a href="#" tabindex="-1" class="btn btn-sm btn-secondary disabled placeholder col-4"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="card h-100 w-100 mt-2" aria-hidden="true">
+                <img src="images/audir8.jpg" alt="audi" class="img-fluid card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title placeholder-glow">
+                        <span class="placeholder col-4"></span>
+                    </h5>
+                    <p class="card-text placeholder-wave">
+                        <span class="placeholder col-12"></span>
+                        <span class="placeholder col-5 placeholder-sm"></span>
+                        <span class="placeholder col-7"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-6"></span>
+                    </p>
+                    <a href="#" tabindex="-1" class="btn btn-sm btn-secondary disabled placeholder col-4"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="card h-100 w-100 mt-2" aria-hidden="true">
+                <img src="images/porsche911turbo4.webp" alt="porsche" class="img-fluid card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title placeholder-glow">
+                        <span class="placeholder col-4"></span>
+                    </h5>
+                    <p class="card-text placeholder-wave">
+                        <span class="placeholder col-12"></span>
+                        <span class="placeholder col-5 placeholder-sm"></span>
+                        <span class="placeholder col-7"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-6"></span>
+                    </p>
+                    <a href="#" tabindex="-1" class="btn btn-sm btn-secondary disabled placeholder col-4"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="card h-100 w-100 mt-2" aria-hidden="true">
+                <img src="images/vwpassatcc.jpg" alt="vw" class="img-fluid card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title placeholder-glow">
+                        <span class="placeholder col-4"></span>
+                    </h5>
+                    <p class="card-text placeholder-wave">
+                        <span class="placeholder col-12"></span>
+                        <span class="placeholder col-5 placeholder-sm"></span>
+                        <span class="placeholder col-7"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-6"></span>
+                    </p>
+                    <a href="#" tabindex="-1" class="btn btn-sm btn-secondary disabled placeholder col-4"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="card h-100 w-100 mt-2" aria-hidden="true">
+                <img src="images/opelinsignia3.jpeg" alt="opel" class="img-fluid card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title placeholder-glow">
+                        <span class="placeholder col-4"></span>
+                    </h5>
+                    <p class="card-text placeholder-wave">
+                        <span class="placeholder col-12"></span>
+                        <span class="placeholder col-5 placeholder-sm"></span>
+                        <span class="placeholder col-7"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-6"></span>
+                    </p>
+                    <a href="#" tabindex="-1" class="btn btn-sm btn-secondary disabled placeholder col-4"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body> 
+</html>
